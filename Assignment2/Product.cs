@@ -17,7 +17,7 @@ namespace Assignment2
 
         public int Stock { get; set; }
 
-        // Parameterless Constructor
+        // Parameterized Constructor with properties
         public Product(int productId, string productName, double price, int stock)
         {
             ProductId = productId;
